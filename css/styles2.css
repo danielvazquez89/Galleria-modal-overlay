@@ -1,0 +1,56 @@
+  .modal-content {
+      width: min-content;
+      height: auto;
+      background-color: white;
+      font-size: 20px;
+      overflow: hidden;
+      transition: margin-top 0.5s;
+      position: relative;
+      max-height: 90vh;
+      overflow-y: auto;
+  }
+
+  .modal-image {
+      width: auto;
+      height: 370px;
+      max-height: 60vh;
+  }
+
+  .modal-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .modal-description {
+    text-align: left;
+    padding-bottom: 12px;
+    font-size: medium;
+  }
+
+  .show>.content {
+      margin: 0px;
+  }
+
+  .text {
+      margin-bottom: 20px;
+  }
+
+  .cross-button {
+    background-color: rgba(255,255,255,0.3);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+    margin: 6px;
+  }
+
+  .modal-footer {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+
+  .hideButton {
+      margin-right: 5px;
+  }
